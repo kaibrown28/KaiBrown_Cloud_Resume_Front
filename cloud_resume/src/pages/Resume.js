@@ -4,10 +4,9 @@ import index from "../components";
 const Resume = () => {
     return (
         <div className="resume">
-            <Header />
-            <Resume />
-            <Counter />
-            <Footer />
+            <h1>Cloud Resume</h1>
         </div>
     )
 }
+
+export default Resume;

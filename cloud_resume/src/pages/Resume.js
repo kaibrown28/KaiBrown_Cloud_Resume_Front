@@ -1,12 +1,14 @@
-import index from "../components";
+import {Header, Footer, Counter, Resume} from '../components/index'
 
 
-const Resume = () => {
+const ResumePage = () => {
     return (
         <div className="resume">
-            <h1>Cloud Resume</h1>
+            <Resume />
+            <Counter />
+            <Footer />
         </div>
     )
 }
 
-export default Resume;
+export default ResumePage;

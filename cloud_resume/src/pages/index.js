@@ -1,5 +1,5 @@
 import ErrorPage from './Error';
 import Home from './Home';
-import Resume from './Resume';
+import ResumePage from './Resume';
 
-export {ErrorPage, Home, Resume}
+export {ErrorPage, Home, ResumePage}

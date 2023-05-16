@@ -4,9 +4,9 @@ import { Resume } from '../components/index'
 const ResumePage = () => {
     return (
         <div className="resume">
-            <Header />
+            
             <Resume />         
-            <Footer />
+            
         </div>
     )
 }

@@ -1,7 +1,13 @@
 const Hackathons = () => {
     return (
-        <div className="footer">
-            <p>Don't Forget To Be Awesome!</p>
+        <div className="hackathons">
+            <p>Hackathons</p>
+            <ul>
+                <li>Equalithon</li>
+                    <p></p>
+                <li>General Assembly Summer</li>
+                    <p></p>
+            </ul>
         </div>
     )
 }

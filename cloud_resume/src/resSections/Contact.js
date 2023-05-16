@@ -1,7 +1,10 @@
 const Contact = () => {
     return (
-        <div className="footer">
-            <p>Don't Forget To Be Awesome!</p>
+        <div className="contact">
+            <a>Greater Boston</a>
+            <a href="kaibrown28@outlook.com"> Email</a>
+            <a href="www.linkedin.com/in/kaibrown28"> LinkedIn</a>
+            <a href="github.com"> GitHub</a>
         </div>
     )
 }

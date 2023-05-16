@@ -1,7 +1,16 @@
 const Hack = () => {
     return (
-        <div className="footer">
-            <p>Don't Forget To Be Awesome!</p>
+        <div className="hack">
+            <p>Hack Diversity</p>
+            <p>Hack Diversity is...</p>
+
+            <p>Tech Dive</p>
+            <ul>
+                <li>Mern</li>
+                <li>Teamwork</li>
+                <li>React</li>
+                <li>Mongo</li>
+            </ul>
         </div>
     )
 }

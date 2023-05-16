@@ -1,7 +1,7 @@
 const Summary = () => {
     return (
-        <div className="footer">
-            <p>Don't Forget To Be Awesome!</p>
+        <div className="summary">
+            <p>Place summary here!</p>
         </div>
     )
 }

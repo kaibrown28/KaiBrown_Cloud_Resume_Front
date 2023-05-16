@@ -1,6 +1,6 @@
 const Certifications = () => {
     return (
-        <div className="footer">
+        <div className="certs">
             <p>Don't Forget To Be Awesome!</p>
         </div>
     )

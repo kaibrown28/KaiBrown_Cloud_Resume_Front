@@ -1,6 +1,6 @@
 const Kyruus = () => {
     return (
-        <div className="footer">
+        <div className="kyruus">
             <p>Don't Forget To Be Awesome!</p>
         </div>
     )

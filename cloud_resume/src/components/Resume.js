@@ -1,4 +1,4 @@
-import { Certifications, Education, Contact, Hackathons, Hack, Summary, Tec, Kyruus } from '../resSections/index'
+import { Certifications, Education, Contact, Hackathons, Summary, Kyruus, Organizations } from '../resSections/index'
 
 const Resume = () => {
  return (
@@ -6,8 +6,7 @@ const Resume = () => {
     <Contact />
     <Summary />
     <Kyruus />
-    <Hack />
-    <Tec />
+    <Organizations />
     <Hackathons />
     <Certifications />
     <Education /> 

@@ -1,7 +1,17 @@
 const Certifications = () => {
     return (
         <div className="certs">
-            <p>Don't Forget To Be Awesome!</p>
+            <h4>Certifications</h4>
+            <ul>
+                <li>
+                    <p>AWS</p>
+                    <p>Description</p>
+                </li>
+                <li>
+                    <p>CompTia A+</p>
+                    <p>Description</p>
+                </li>
+            </ul>
         </div>
     )
 }

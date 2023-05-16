@@ -1,7 +1,7 @@
 const Summary = () => {
     return (
         <div className="summary">
-            <p>Place summary here!</p>
+            <h4>Summary</h4>
         </div>
     )
 }

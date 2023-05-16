@@ -1,7 +1,7 @@
 const Hackathons = () => {
     return (
         <div className="hackathons">
-            <p>Hackathons</p>
+            <h4>Hackathons</h4>
             <ul>
                 <li>Equalithon</li>
                     <p></p>

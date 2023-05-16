@@ -1,10 +1,10 @@
-import {Header, Footer, Counter, Resume} from '../components/index'
+import {Header, Footer, Counter, } from '../components/index'
 
 
 const ResumePage = () => {
     return (
         <div className="resume">
-            <Resume />
+          
             <Counter />
             <Footer />
         </div>

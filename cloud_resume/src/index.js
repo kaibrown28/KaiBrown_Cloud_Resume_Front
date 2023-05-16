@@ -3,22 +3,26 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import {ResumePage} from './components/ResumePage';
+// import {Header, Footer, Counter, Resume} from './components/index'
+import {ErrorPage, Home, ResumePage} from './pages/index'
+
 
 const router = createBrowserRouter([
   {
   path: "/",
   element: <App />,
-  errorElement: <ErrorPage />
-  }, 
-  {
-    path: "/resume",
-    element: <ResumePage />
-  },
-  { 
-    path: "/home",
-    element: <Home />
-  },
+  errorElement: <ErrorPage />,
+  children: [
+    {
+      path: "/resume",
+      element: <ResumePage />
+    },
+    { 
+      path: "/home",
+      element: <Home />
+    },
+],
+},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

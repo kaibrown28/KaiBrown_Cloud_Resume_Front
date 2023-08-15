@@ -1,10 +1,10 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 // import {Header, Footer, Counter, Resume} from './components/index'
 import {ErrorPage, Home, ResumePage} from './pages/index'
+import React from 'react';
 
 
 const router = createBrowserRouter([

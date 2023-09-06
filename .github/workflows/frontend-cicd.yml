@@ -1,15 +1,14 @@
-name : Upload to S3
-
+name: upload to S3
+# Run workflow only on push to dev branch
 on:
   push:
     branches:
-    - main
-
+      - main
 jobs:
-  build-tabola:
+  # To build the project
+  build-tambola:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-   steps:
+    steps:
       - name: Checking out code
         uses: actions/checkout@v3
       - name: Installing Node.js
@@ -25,8 +24,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
+          aws-region: us-west-1
 
       - name: Deploy to S3 bucket
         run: aws s3 sync ./dist/ s3://dev-tambola --delete
-      run: npm install

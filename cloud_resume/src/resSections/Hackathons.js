@@ -5,7 +5,7 @@ const Hackathons = () => {
             <ul>
                 <li>Equalithon</li>
                     <p></p>
-                <li>General Assembly Summer</li>
+                <li>General Assembly Summer 2022</li>
                     <p></p>
             </ul>
         </div>

@@ -19,7 +19,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "run": "package.json",
     "deploy": "aws s3 sync build/ s3://kb-cloud-resume-challenge",
     "prod": "npm run build && npm run deploy"
   },

@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "aws s3 sync build/ s3://kb-cloud-resume-challenge",
     "prod": "npm run build && npm run deploy",
-    "run": "/home/runner/work/KaiBrown_Cloud_Resume_Front/KaiBrown_Cloud_Resume_Front/package.json"
+    "run": "/KaiBrown_Cloud_Resume_Front/package.json"
   },
   "eslintConfig": {
     "extends": [

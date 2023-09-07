@@ -214,6 +214,30 @@ h6 {
     left: -100%;
   }
 }
+.navbar .social-links {
+  padding-bottom: 20px;
+}
+
+.navbar .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  background: #fff;
+  color: #d43076;
+  line-height: 0;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #d43076;
+}
+
+.navbar .social-links a:hover {
+  background: #d43076;
+  color: #fff;
+}
 
 /**
 * Mobile Navigation 
@@ -330,7 +354,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   background: #2c4964 top center;
   background-size: cover;
   padding: 0 15px;
@@ -533,7 +557,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("/assets/img/KaiHeadshot.webp") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -595,7 +619,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: #4b7dab;
   font-family: "Poppins", sans-serif;
@@ -1040,7 +1064,7 @@ section {
 }
 
 .contact .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #fff;
   color: #d43076;

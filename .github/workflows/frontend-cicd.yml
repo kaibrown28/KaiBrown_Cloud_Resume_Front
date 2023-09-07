@@ -3,7 +3,11 @@ name: upload to s3
 on:
   push:
     branches:
-      - main        
+      - main 
+  # pull_request:
+  #   branches:
+  #     - main    
+ 
 jobs:
   build:       
     runs-on: ubuntu-latest
